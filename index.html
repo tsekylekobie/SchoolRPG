@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+<meta charset="utf-8">
+<title></title>
+<style type="text/css">
+</style>
+<script src="jquery.js"></script>
+
+<script src="Entity/EntityHandler.js"></script>
+<script src="Entity/Entity.js"></script>
+<script src="Entity/Player.js"></script>
+<script src="Entity/Student.js"></script>
+<script src="Entity/Teacher.js"></script>
+<script src="Entity/Homework.js"></script>
+<script src="Entity/CafeLady.js"></script>
+
+<script src="Entity/Students/BobStudent.js"></script>
+<script src="Entity/Students/SteveStudent.js"></script>
+
+<script src="Entity/Homework/EnglishHomework.js"></script>
+<script src="Entity/Homework/MathHomework.js"></script>
+<script src="Entity/Homework/HistoryHomework.js"></script>
+<script src="Entity/Homework/ScienceHomework.js"></script>
+
+
+
+<script src="State/StateHandler.js"></script>
+<script src="State/WorldState.js"></script>
+<script src="State/MainMenuState.js"></script>
+<script src="State/BattleState.js"></script>
+<script src="State/MenuState.js"></script>
+<script src="State/State.js"></script>
+
+<script src="Map/MapHandler.js"></script>
+<script src="Map/Map.js"></script>
+<script src="Map/HomeMap.js"></script>
+<script src="Map/SchoolMap.js"></script>
+<script src="Map/Door.js"></script>
+<script src="Map/Class01Map.js"></script>
+<script src="Map/Class02Map.js"></script>
+<script src="Map/CafeMap.js"></script>
+<script src="Map/FinalsMap.js"></script>
+
+<script src="Item/Item.js"></script>
+<script src="Item/Apple.js"></script>
+<script src="Item/JuiceBox.js"></script>
+<script src="Item/Coffee.js"></script>
+<script src="Item/Candy.js"></script>
+
+<script src="HUD.js"></script>
+<script src="ID.js"></script>
+
+<script src="Game.js"></script>
+<script>
+$(document).ready(()=>{
+	 var g1 = new Game("canvas"); 
+	 g1.start();
+});
+	
+	
+</script>
+
+</head>
+
+<body>
+	<center>
+		<canvas id = "canvas" width=1000 height= 650 style="border: 3px black solid;"></canvas>
+	</center>
+</body>
+</html>
